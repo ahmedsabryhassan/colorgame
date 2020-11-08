@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Game</title>
+    <link rel="shortcut icon" type="image/x-icon" href="logo.png">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class="heading">
+        <div class="container">
+            <h3>Welcome to color guessing Game</h3>
+            <h3>Guess the different color</h3>
+            <h4>Rounds: <span>1</span></h4>
+            <h4>Highest score: <span>1</span></h4>
+            <h4>BY: Ahmed Sabry</h4>
+        </div>
+        <div class="navo">
+            <div class="container d-flex">
+                <button class="buttons mr-auto">Start Over</button>
+                <p class="mr-auto"></p>
+                <button class="buttons align-self-end">Easy</button>
+                <button class="buttons align-self-end active">Hard</button>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-4 "><div class="square"></div></div>
+            <div class="col-4 "><div class="square"></div></div>
+            <div class="col-4 "><div class="square"></div></div>
+            <div class="col-4 "><div class="square"></div></div>
+            <div class="col-4 "><div class="square"></div></div>
+            <div class="col-4 "><div class="square"></div></div>
+        </div>
+    </div>
+
+    <div class="overlay d-flex justify-content-center d-flex align-items-center invisible">
+        <div class="border d-flex justify-content-center d-flex align-items-center flex-column">
+            <h1>GameOver!</h1>
+            <h5>Highest score: <span>1</span></h5>
+            <a class="btn btn-primary">Play again</a>
+        </div>
+    </div>
+    <script src="jquery.js" type="text/javascript" charset="utf-8"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js.js"></script>
+</body>
+</html>
